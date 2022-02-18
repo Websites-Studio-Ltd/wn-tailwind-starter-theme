@@ -1,0 +1,23 @@
+{
+    "name": "winter/tailwind-starter-theme",
+    "type": "winter-theme",
+    "description": "Tailwind Starter Winter CMS theme",
+    "keywords": ["winter", "cms", "demo", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick McGonigle",
+            "email": "patrick@mcgonigle.dev",
+            "role": "Founder"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

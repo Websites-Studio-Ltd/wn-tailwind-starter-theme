@@ -1,0 +1,12 @@
+name: 'Tailwind Starter Theme'
+description: 'A starter theme built on TailwindCSS and AlpineJS. '
+author: 'Websites Studio Ltd'
+homepage: www.websitesstudio.ltd
+code: ''
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the frontend
+            default: My Amazing Site!
