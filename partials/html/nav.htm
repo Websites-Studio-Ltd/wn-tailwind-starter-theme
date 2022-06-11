@@ -19,14 +19,12 @@
     </button>
   </div>
   <!-- Desktop Navigation -->
-  <nav class="hidden md:block md:pb-0  md:justify-end md:flex-row">
-    {% partial 'html/nav_items' %}
+  <nav class="hidden md:flex md:pb-0 md:items-center">
+    {% partial 'site/nav_items' %}
   </nav>
   <!-- Mobile Navigation -->
   <nav x-show="open" x-transition.duration.500ms
     class="absolute z-10 flex flex-col flex-grow p-3 md:pb-0 h-auto w-11/12 bg-gray-50 mt-14 shadow-xl rounded-lg">
-    {% partial 'html/nav_items' %}
+    {% partial 'site/nav_items' %}
   </nav>
 </div>
-
-
